@@ -1,1 +1,20 @@
 theme: minima
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+sass:
+  style: compressed
+
+include:
+  - assets/css/custom.css
